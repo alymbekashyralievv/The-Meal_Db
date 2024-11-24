@@ -1,0 +1,109 @@
+.img {
+  width: 1312px;
+  border-radius: 32px;
+}
+
+.div-parent {
+  height: 760px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -550px;
+  align-items: center;
+  gap: 12px;
+}
+
+.h1 {
+  font-size: 80px;
+  color: white;
+  font-weight: 800px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.p {
+  color: white;
+}
+
+.p-container {
+  width: 440px;
+  text-align: center;
+  font-size: 21px;
+}
+
+.button-main {
+  padding: 12px 24px;
+  border-radius: 24px;
+  background: rgba(242, 156, 51, 1);
+  text-transform: uppercase;
+  margin-top: 78px;
+}
+
+.section-container {
+  background: rgba(196, 229, 252, 1);
+  height: 500px;
+  border-radius: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.child-section {
+  width: 494px;
+  height: 276px;
+  padding-top: 188px;
+  padding-left: 40px;
+}
+
+.button-child {
+  width: 76px;
+  height: 24px;
+  border-radius: 12px;
+  background: rgba(238, 99, 82, 1);
+  color: white;
+  text-transform: uppercase;
+}
+
+.h2 {
+  margin-top: 10px;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.p-text {
+  width: 550px;
+  margin-top: 10px;
+}
+
+.child-button {
+  width: 115px;
+  height: 38px;
+  border-radius: 24px;
+  background: none;
+  text-transform: uppercase;
+  border: 1px solid black;
+  margin-top: 40px;
+}
+
+.section-container-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px;
+}
+
+.child-section-2 {
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(38, 37, 34, 0.16);
+  display: flex;
+  gap: 370px;
+  justify-content: space-between;
+  border-bottom-color: 1px solid black;
+}
+
+.h4-food-name {
+  text-transform: uppercase;
+}
